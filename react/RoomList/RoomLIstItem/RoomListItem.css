@@ -1,0 +1,61 @@
+
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 90%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.InProgress {
+    color: #1BE2BE !important;
+    background:  rgb(27 226 190 / 20%) !important;
+}
+
+.Completed {
+    color: #0fc7ff !important;
+    background: #d6f3ff !important;
+}
+
+/* .badge {
+    color: white;
+    
+} */
+
+.text-truncate {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text-muted {
+    font-style: 18px;
+}
+
+
+
+.room-name {
+    font-style: 16px;
+    color: #343a40 !important;
+    text-decoration: none !important;
+}
+
+.room-description {
+    font-style: 13px !important;
+    color: #74788d;
+}
+
+.card {
+    min-height: 240px !important;
+    border: none !important;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);;
+}
+
+.border-top {
+    border-top: 1px solid #eff2f7!important;
+}

@@ -1,0 +1,70 @@
+.avatar-group {
+    padding-left: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: 53px;
+}
+
+.avatar-group .avatar-group-item {
+    margin-left: -12px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    position: relative;
+}
+
+.avatar-group .avatar-group-item:hover {
+    position: relative;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+
+
+.avatar-group .avatar-group-item:hover .participant-info {
+    opacity: 1;
+    top: -20px;
+}
+
+.participant-info {
+    width: max-content;
+    background: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    align-items: center;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    left: -20px;
+    top: 10px;
+    transition: all .2s;
+}
+
+.more-participants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue;
+    min-height: 3rem;
+    min-width: 3rem;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* .avatar-group .avatar-group-item:hover */
+
+.avatar-xs {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+}
+
+
+img, svg {
+    vertical-align: middle;
+}
